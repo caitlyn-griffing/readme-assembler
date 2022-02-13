@@ -46,7 +46,9 @@ inquirer.prompt(questions).then(answer => {
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-    
+    fs.writeFile("sample.md", data, error => {
+        console.log(error);
+    });
 }
 
 

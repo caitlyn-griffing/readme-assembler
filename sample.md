@@ -1,11 +1,12 @@
 
   # heat wave
-
   ---
+
+  > If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you. -Zig Ziglar
 
   ## Description 
 
-  alsdkfjsldf
+  hey hey hey
 
   ---
 
@@ -25,13 +26,11 @@
 
   Install the necessary dependencies below:
 
-  hellloooooo giursasdfas
+  a;lsdkfj
 
   ---
 
   ### screenshots
-
-  
 
   ![Image 1](utils/assets/images/heatwaveSS1.png)
 
@@ -39,6 +38,5 @@
 
   ### License
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+  MIT
 
