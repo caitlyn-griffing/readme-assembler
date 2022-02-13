@@ -35,6 +35,9 @@ const questions = [
 
 inquirer.prompt(questions).then(answer => {
     console.log(answer);
+    const markdown = generateMarkdown(answer);
+    console.log(markdown);
+    writeToFile(markdown);
     
 });
 
