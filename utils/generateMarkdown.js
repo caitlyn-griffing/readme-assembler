@@ -25,7 +25,6 @@ function generateMarkdown(data) {
   console.log(data);
   return `
   # ${data.title}
-  ---
 
   > If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you. -Zig Ziglar
 
@@ -33,21 +32,37 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  ![Image 1](${data.mainSS})
+
   ---
 
   ## Table of Contents:
+
+  *[Links](#links)
 
   *[Installation](#installation)
 
   *[Usage](#usage)
 
+  *[Tests](#tests)
+
   *[License](#license)
 
-  *[Questions](#questions)
+  *[Contrubuters](#contributers)
+
+  *[Contact](#contact)
 
   ---
 
-  ### Installation
+  ## Links
+
+  - [Deployed URL](${data.deployed})
+
+  - [GitHub URL](${data.ghubLink})
+
+  ---
+
+  ## Installation
 
   Install the necessary dependencies below:
 
@@ -55,19 +70,49 @@ function generateMarkdown(data) {
 
   ---
 
-  ### screenshots
+  ## Usage
 
-  ![Image 1](${data.screenshots})
+  In order to utilize this application follow the instructions listed below
+
+  ${data.usage}
 
   ---
 
-  ### License
+  ## Tests
+
+  Below are explicit instructions on how to run all necessaary tests for this application
+
+  ${data.tests}
+
+  ---
+
+  ## License
 
   ${renderLicenseSection(data.license)}
+
+  ---
+
+  ## Contributers
+
+  Listed below are all of the people who contributed towards this project
+
+  ${data.contributers}
+
+  ---
+
+  ## Contact
+
+  If you have any additional questions you can contact me through email at ${data.email}.
+
+  AND you can check out my work through the following links
+
+  - [GitHub Profile](${data.ghubProfile})
+
+  - [Portfolio](${data.portfolio})
 
 `;
 }
 
 module.exports = generateMarkdown;
 
-// for or while loop to attach screenshots to this code below
+// future planning: see if i can create a for loop or a while loop to attach screenshots to the screenshot code for only the amount of screenshots you have
