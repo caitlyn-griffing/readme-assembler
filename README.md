@@ -4,7 +4,51 @@
 
 ## Description
 
-You can quickly and easily create a high-quality README file by using a command-line application to generate one. This allows the you to devote more time to working on your project.
+When creating an open source project on GitHub, it's important to have a high-quality README for the app. This should include (but is not limited to) what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. This application quickly creates a README file by using command-line prompts and user input.
+
+---
+
+## Table of Contents
+
+*[Important Links](#links)
+
+*[Usage](#usage)
+
+*[Installation](#installation)
+
+*[User Story](#user-story)
+
+*[Acceptance Criteria](#acceptance-criteria)
+
+*[License](#license)
+
+*[Images](#images)
+
+*[Contact](#contact)
+
+---
+
+## Important Links
+
+- [Demo Video](assets/videos/rmaV1.mp4)
+
+- [GitHub URL](https://github.com/caitlyn-griffing/readme-generator)
+
+---
+
+## Usage
+
+To generate this application you will need to enter the following into the command line:
+
+- node index.js
+
+---
+
+## Installation
+
+Below are the required installations for this application:
+
+- npm install inquirer
 
 ---
 
@@ -15,6 +59,8 @@ AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
+
+---
 
 ## Acceptance Criteria
 
@@ -38,27 +84,26 @@ THEN I am taken to the corresponding section of the README
 
 ---
 
+## License
 
-
-## Important Links
-
-- [Deployed URL](https://caitlyn-griffing.github.io/readme-generator/)
-
-- [GitHub URL](https://github.com/caitlyn-griffing/readme-generator)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-hotpink.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-## Images of Deployed Web Page
+## Images
 
+![Image 1](assets/images/rmaSS1.png)
 
-![Image 1](assets/images/tpSS1.png)
+![Image 2](assets/images/rmaSS2.png)
 
-![Image 2](assets/images/tpSS2.png)
+![Image 3](assets/images/rmaSS3.png)
 
-![Image 3](assets/images/tpSS3.png)
+![Image 4](assets/images/rmaSS4.png)
 
-![Image 4](assets/images/tpSS4.png)
+![Image 5](assets/images/rmaSS5.png)
 
-![Image 5](assets/images/tpSS5.png)
+## Contact
 
+If you have any additional questions you can contact me through email at griffingcaitlyn@gmail.com.
+
+You can also check out my [GitHub Profile](https://github.com/caitlyn-griffing) to view additional creations of mine.

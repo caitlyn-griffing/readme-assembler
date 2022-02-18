@@ -1,13 +1,11 @@
 
-  # alsdkf
+  # README Assembler
 
   > If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you. -Zig Ziglar
 
   ## Description 
 
-  a;sldkj
-
-  ![Image 1](a;sldkj)
+  Generates a readme through command-line prompts
 
   ---
 
@@ -15,9 +13,15 @@
 
   *[Links](#links)
 
-  *[Installation](#installation)
-
   *[Usage](#usage)
+  
+  *[Installation](#installation)
+  
+  *[User Story](#userstory)
+  
+  *[Acceptance Criteria](#criteria)
+
+  *[Images](#images)
 
   *[Tests](#tests)
 
@@ -31,9 +35,15 @@
 
   ## Links
 
-  - [Deployed URL](;sadlkj)
+  - [Deployed URL](https://caitlyn-griffing.github.io/readme-generator/)
 
-  - [GitHub URL](;lsadkj)
+  ---
+
+  ## Usage
+
+  To generate this application you will need to enter the following into the command line:
+
+  - node index.js
 
   ---
 
@@ -41,23 +51,29 @@
 
   Install the necessary dependencies below:
 
-  ;alskdj
+  npm install inquirer
 
   ---
 
-  ## Usage
+  ## User Story
 
-  In order to utilize this application follow the instructions listed below
-
-  as;ldkj
+  - 
 
   ---
 
-  ## Tests
+  ## Acceptance Criteria
 
-  Below are explicit instructions on how to run all necessaary tests for this application
+  GIVEN
 
-  ;asldkfj
+  WHEN I
+
+  THEN I
+
+  ---
+
+  ## Images 
+
+  ![Image 1](assets/images/rmaSS5.png)
 
   ---
 
@@ -69,19 +85,17 @@
 
   ## Contributers
 
-  Listed below are all of the people who contributed towards this project
+  Listed below are all of the people who contributed towards this project:
 
-  a;sdlkj
+  None
 
   ---
 
   ## Contact
 
-  If you have any additional questions you can contact me through email at as;ldkj.
+  If you have any additional questions you can contact me through email at griffingcaitlyn@gmail.com.
 
   AND you can check out my work through the following links
 
-  - [GitHub Profile](as;dlkj)
-
-  - [Portfolio](as;dlk)
+  - [GitHub Profile](https://github.com/caitlyn-griffing)
 

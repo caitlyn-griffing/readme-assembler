@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === 'MIT') {
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-hotpink.svg)](https://opensource.org/licenses/MIT)`
   }
   else if (license === 'IBM') {
     return `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`
@@ -32,17 +32,21 @@ function generateMarkdown(data) {
 
   ${data.description}
 
-  ![Image 1](${data.mainSS})
-
   ---
 
   ## Table of Contents:
 
   *[Links](#links)
 
-  *[Installation](#installation)
-
   *[Usage](#usage)
+  
+  *[Installation](#installation)
+  
+  *[User Story](#userstory)
+  
+  *[Acceptance Criteria](#criteria)
+
+  *[Images](#images)
 
   *[Tests](#tests)
 
@@ -58,7 +62,13 @@ function generateMarkdown(data) {
 
   - [Deployed URL](${data.deployed})
 
-  - [GitHub URL](${data.ghubLink})
+  ---
+
+  ## Usage
+
+  To generate this application you will need to enter the following into the command line:
+
+  - ${data.usage}
 
   ---
 
@@ -70,19 +80,25 @@ function generateMarkdown(data) {
 
   ---
 
-  ## Usage
+  ## User Story
 
-  In order to utilize this application follow the instructions listed below
-
-  ${data.usage}
+  - 
 
   ---
 
-  ## Tests
+  ## Acceptance Criteria
 
-  Below are explicit instructions on how to run all necessaary tests for this application
+  GIVEN
 
-  ${data.tests}
+  WHEN I
+
+  THEN I
+
+  ---
+
+  ## Images 
+
+  ![Image 1](${data.screenshot})
 
   ---
 
@@ -94,7 +110,7 @@ function generateMarkdown(data) {
 
   ## Contributers
 
-  Listed below are all of the people who contributed towards this project
+  Listed below are all of the people who contributed towards this project:
 
   ${data.contributers}
 
@@ -107,8 +123,6 @@ function generateMarkdown(data) {
   AND you can check out my work through the following links
 
   - [GitHub Profile](${data.ghubProfile})
-
-  - [Portfolio](${data.portfolio})
 
 `;
 }

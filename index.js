@@ -16,44 +16,39 @@ const questions = [
         type: 'input'
     },
     {
-        name: 'mainSS',
-        message: 'Copy and paste the relative path of your Main SS photo here',
+        name: 'usage',
+        message: 'Usage - How do you run this application:',
         type: 'input'
     },
     {
         name: 'installation',
-        message: 'List step-by-step instructions on how to install your project',
+        message: 'Installation - What installations were needed for your project:',
         type: 'input'
     },
     {
-        name: 'usage',
-        message: 'Provide step-by-step instructions on how to use your app. Add more photos if necessary - ![image title here](relativePathToImageHere.png)',
+        name: 'tests',
+        message: 'Tests - Give explicit instructions on how to run all necessary tests:',
         type: 'input'
     },
     {
         name: 'license',
-        message: 'Select the license you wish to use for your project',
+        message: 'Select the license you wish to use for your project:',
         type: 'list',
         choices: ['MIT', 'IBM', 'MOZILLA'],
     },
     {
-        name: 'tests',
-        message: 'Give explicit instructions on how to run all necessary tests',
-        type: 'input'
-    },
-    {
         name: 'contributers',
-        message: 'Add everyone who contributed towards this project',
+        message: 'Contributers - Add everyone who contributed towards this project. Type - with a space afterwards before each person',
         type: 'input'
     },
     {
         name: 'deployed',
-        message: 'Enter the URL to your deployed application',
+        message: 'Deployed: Enter the URL to your deployed application',
         type: 'input'
     },
     {
-        name: 'ghubLink',
-        message: 'Enter the URL to this projects GitHub',
+        name: 'screenshot',
+        message: 'Copy and paste the relative path of the screenshot for your project',
         type: 'input'
     },
     {
@@ -66,11 +61,6 @@ const questions = [
         message: 'Enter the URL to your GitHub Profile',
         type: 'input'
     },
-    {
-        name: 'portfolio',
-        message: 'Enter URL to your portfolio',
-        type: 'input'
-    }
 ];
 
 inquirer.prompt(questions).then(answer => {
