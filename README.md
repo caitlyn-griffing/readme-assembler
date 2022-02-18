@@ -30,7 +30,7 @@ When creating an open source project on GitHub, it's important to have a high-qu
 
 ## Important Links
 
-- [Demo Video](assets/videos/rmaV1.mp4)
+- [Demo Video](https://youtu.be/CPrhwmOUTO4)
 
 - [GitHub URL](https://github.com/caitlyn-griffing/readme-generator)
 
