@@ -1,13 +1,13 @@
 
-  # heavy
+  # alsdkf
 
   > If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you. -Zig Ziglar
 
   ## Description 
 
-  a;lsdkfj
+  a;sldkj
 
-  ![Image 1](utils/assets/images/heatwaveSS1.png)
+  ![Image 1](a;sldkj)
 
   ---
 
@@ -29,59 +29,59 @@
 
   ---
 
-  ### Links
+  ## Links
 
-  - [Deployed URL](https://caitlyn-griffing.github.io/heat-wave/)
+  - [Deployed URL](;sadlkj)
 
-  - [GitHub URL](https://caitlyn-griffing.github.io/heat-wave/)
+  - [GitHub URL](;lsadkj)
 
   ---
 
-  ### Installation
+  ## Installation
 
   Install the necessary dependencies below:
 
-  kjghmn
+  ;alskdj
 
   ---
 
-  ### Usage
+  ## Usage
 
   In order to utilize this application follow the instructions listed below
 
-  tkjufhngbdvd
+  as;ldkj
 
   ---
 
-  ### Tests
+  ## Tests
 
   Below are explicit instructions on how to run all necessaary tests for this application
 
-  ;alskdfj
+  ;asldkfj
 
   ---
 
-  ### License
+  ## License
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ---
 
-  ### Contributers
+  ## Contributers
 
   Listed below are all of the people who contributed towards this project
 
-  caitlyn griffing
+  a;sdlkj
 
   ---
 
-  ### Contact
+  ## Contact
 
-  If you have any additional questions you can contact me through email at caitlyn.griffing@gmail.com.
+  If you have any additional questions you can contact me through email at as;ldkj.
 
   AND you can check out my work through the following links
 
-  - [GitHub Profile](https://caitlyn-griffing.github.io/heat-wave/)
+  - [GitHub Profile](as;dlkj)
 
-  - [Portfolio](https://caitlyn-griffing.github.io/heat-wave/)
+  - [Portfolio](as;dlk)
 
